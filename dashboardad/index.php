@@ -36,7 +36,6 @@
             </div>
         </div>
     <br>
-   
     <br>
     <div class="container">
         <div class="row">
@@ -63,7 +62,7 @@
 
 
 
-<!--Modal para Comenarios-->
+<!--Modal para Comenarios
 <div class="container">
     <div class="row">
         <div class="col-md-12" >  
@@ -72,7 +71,7 @@
             <button type="button" id="btnExcel" class="btn btn-success">Exportar Excel</button>
         </div>
     </div>
-</div>
+</div>-->
 <br>
 <br>
     

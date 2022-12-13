@@ -15,21 +15,28 @@
         <div class="row">
             <div class="col-12">
                 <div class="card resultado">
-                    <h5 id="header" class="card-header">Informe</h5>
+                    <h5 id="header" class="card-header text-center">Informe Trimestral</h5>
                     <div class="card-body">
-                        <h5 id="title" class="card-title">Captura de informe</h5>
-                        <p id="texto" class="card-text">Favor de descargar el informe, y subirlo cuando este firmado</p>
-                        <form id="formUploadFile" enctype="multipart/form-data" action="#">
-                            <div class="form-group">
-                                <label for=""></label>
-                                <input type="file" class="form-control-file" name="archivo" id="archivo" placeholder="" aria-describedby="fileHelpId">
-                                <small id="fileHelpId" class="form-text text-muted">Archivo PDF</small>
-                                <button type="submit" class="btn btn-primary" value="Submit">Enviar</button>
-                                <input type="hidden" name="id_informe" id="id_informe">
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <h5 id="title" class="card-title">Descargar Informe</h5>
+                                <p id="texto" class="card-text">para firma</p>
+                                <a href="#" id="ImprimirPDF" class="btn btn-primary botonm">Descargar informe</a>
                             </div>
-                        </form>
-                        <a href="#" id="ImprimirPDF" class="btn btn-primary botonm">Descargar informe</a>
-
+                            <div class="col-md-6">
+                                <h5 id="title" class="card-title">Subír Informe Firmado</h5>
+                                <p id="texto" class="card-text"></p>
+                                <form id="formUploadFile" enctype="multipart/form-data" action="#">
+                                    <div class="form-group">
+                                        <label for=""></label>
+                                        <input type="file" class="form-control-file" name="archivo" id="archivo" placeholder="" aria-describedby="fileHelpId">
+                                        <small id="fileHelpId" class="form-text text-muted">Archivo PDF</small>
+                                        <button type="submit" class="btn btn-primary" value="Submit">Enviar</button>
+                                        <input type="hidden" name="id_informe" id="id_informe">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card vacio">
