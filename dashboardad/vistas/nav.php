@@ -30,6 +30,11 @@
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Escuelas</span></a>
     </li>
+      <li class="nav-item active">
+    <a class="nav-link informesUrl" href="reportes.php">
+        <i class="fas fa-fw fa-tachometer-alt"></i>
+        <span>Exportar Excel</span></a>
+    </li>
     
 
     <!-- Divider -->
