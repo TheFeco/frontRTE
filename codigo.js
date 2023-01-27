@@ -36,13 +36,13 @@ $("#formLogin").submit(function (e) {
         } else {
           miStorage.setItem("s_storage", data);
           if (getRol() != 1) {
-            url = "dashboard/index.php";
-            /*Swal.fire({
+            //url = "dashboard/index.php";
+            Swal.fire({
                         type:'warning',
                         title:'¡Por el momento la plataforma es cerrada!',
 
                     })
-                    return;*/
+                    return;*
           } else {
             url = "dashboardad/index.php";
           }
