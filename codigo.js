@@ -42,7 +42,7 @@ $("#formLogin").submit(function (e) {
                         title:'¡Por el momento la plataforma es cerrada!',
 
                     })
-                    return;*
+                    return;
           } else {
             url = "dashboardad/index.php";
           }
